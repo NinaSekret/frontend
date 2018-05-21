@@ -1,4 +1,7 @@
-.todo-item {
+.task {
+  display: flex;
+  justify-content: space-between;
+
   padding: 8px 24px;
 
   cursor: pointer;
@@ -7,7 +10,7 @@
     border-top: 1px solid #ccc;
   }
   
-  &__completed {
+  &__completed &_text{
     text-decoration: line-through;
   }
 }

@@ -1,7 +1,14 @@
-@import 'packages/todo-list/todo-list.scss';
+@import 'packages/tasks/tasks.scss';
+@import 'packages/habits/habits.scss';
+@import 'packages/home/home.scss';
+@import 'packages/about/about.scss';
+@import 'packages/menu/menu.scss';
 
 html,
-body {
+body,
+.root {
+  height: 100%;
+  min-height: 100%;
   margin: 0;
   padding: 0;
 
@@ -11,4 +18,7 @@ body {
 ul, li {
   margin: 0;
   padding: 0;
+}
+
+.main {
 }

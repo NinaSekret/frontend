@@ -1,13 +1,17 @@
-@import 'packages/todo-item/todo-item.scss';
-@import 'packages/add-todo/add-todo.scss';
+@import 'packages/add-task/add-task.scss';
+@import 'packages/preloader/preloader';
+@import 'packages/tasks/task.scss';
 
-.todo-list {
+.tasks {
   width: 800px;
-  margin: 48px auto;
+  margin: 0 auto;
   padding: 40px;
 
-  background: #fff;
   box-shadow: 0 0 5px rgba(#000, 0.5);
+
+  &__loading {
+    @extend %block-preloader;
+  }
 
   &_filters {
     &_item {

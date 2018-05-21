@@ -1,1 +1,2 @@
-# frontend
+# react-redux
+example project
